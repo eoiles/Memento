@@ -1,3 +1,3 @@
-function subname){
+function sub(name){
 return field("link").filter(x=>x.field("name")==name)[0]
 }
