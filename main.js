@@ -1,3 +1,3 @@
-function sub(obj,name){
-return obj.field("link").filter(x=>x.field("name")==name)[0]
+function sub(name){
+return this.field("link").filter(x=>x.field("name")==name)[0]
 }
