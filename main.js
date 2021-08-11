@@ -1,4 +1,3 @@
-a=field("link")
-function sub(name){
-return a.filter(x=>x.field("name")==name)[0]
+function sub(arr,name){
+return arr.filter(x=>x.field("name")==name)[0]
 }
